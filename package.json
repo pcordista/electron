@@ -1,0 +1,24 @@
+{
+  "name": "posto2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "gypfile": true,
+  "dependencies": {
+    "addon": "0.0.0",
+    "bindings": "^1.5.0",
+    "electron": "^7.1.7",
+    "electron-edge-js": "^12.8.1",
+    "node-addon-api": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^5.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC"
+}
