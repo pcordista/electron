@@ -7,7 +7,7 @@
   "dependencies": {
     "addon": "0.0.0",
     "bindings": "^1.5.0",
-    "electron": "^7.1.7",
+    "electron": "^9.4.0",
     "electron-edge-js": "^12.8.1",
     "node-addon-api": "^2.0.0"
   },
